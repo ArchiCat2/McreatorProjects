@@ -60,6 +60,36 @@
           "src/main/resources/assets/undertale1/blockstates/falling_blocks_on.json"
         ]
       }
+    },
+    {
+      "name": "FallingBlocksOnEntityCollidesInTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "falling_blocks_on_entity_collides_in_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/undertale/procedures/FallingBlocksOnEntityCollidesInTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
