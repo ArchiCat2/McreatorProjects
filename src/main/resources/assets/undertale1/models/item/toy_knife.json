@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "undertale1:item/toy_knife"
+  }
+}

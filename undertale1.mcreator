@@ -15,6 +15,19 @@
           "src/main/java/net/mcreator/undertale/block/CvetiBlock.java"
         ]
       }
+    },
+    {
+      "name": "ToyKnife",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toy_knife",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/undertale/item/ToyKnifeItem.java",
+          "src/main/resources/assets/undertale1/models/item/toy_knife.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -23,7 +36,8 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "block.undertale1.cveti": "Cveti"
+      "block.undertale1.cveti": "Cveti",
+      "item.undertale1.toy_knife": "Toy Knife"
     }
   },
   "foldersRoot": {
