@@ -28,6 +28,38 @@
           "src/main/resources/assets/undertale1/models/item/toy_knife.json"
         ]
       }
+    },
+    {
+      "name": "FallingBlocksOff",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "falling_blocks_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/undertale/block/FallingBlocksOffBlock.java",
+          "src/main/resources/data/undertale1/loot_tables/blocks/falling_blocks_off.json",
+          "src/main/resources/assets/undertale1/models/item/falling_blocks_off.json",
+          "src/main/resources/assets/undertale1/blockstates/falling_blocks_off.json",
+          "src/main/resources/assets/undertale1/models/block/falling_blocks_off.json"
+        ]
+      }
+    },
+    {
+      "name": "FallingBlocksOn",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "falling_blocks_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/undertale/block/FallingBlocksOnBlock.java",
+          "src/main/resources/assets/undertale1/models/block/falling_blocks_on.json",
+          "src/main/resources/assets/undertale1/models/item/falling_blocks_on.json",
+          "src/main/resources/data/undertale1/loot_tables/blocks/falling_blocks_on.json",
+          "src/main/resources/assets/undertale1/blockstates/falling_blocks_on.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -37,6 +69,8 @@
   "language_map": {
     "en_us": {
       "block.undertale1.cveti": "Cveti",
+      "block.undertale1.falling_blocks_off": "Falling Blocks Off",
+      "block.undertale1.falling_blocks_on": "Falling Blocks On",
       "item.undertale1.toy_knife": "Toy Knife"
     }
   },

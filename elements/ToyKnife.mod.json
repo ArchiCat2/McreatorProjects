@@ -11,10 +11,10 @@
     "rarity": "COMMON",
     "creativeTabs": [
       {
-        "value": "REDSTONE"
+        "value": "COMBAT"
       }
     ],
-    "stackSize": 64,
+    "stackSize": 1,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
@@ -26,7 +26,7 @@
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
-    "enableMeleeDamage": false,
+    "enableMeleeDamage": true,
     "damageVsEntity": 0.0,
     "specialInformation": {
       "fixedValue": []

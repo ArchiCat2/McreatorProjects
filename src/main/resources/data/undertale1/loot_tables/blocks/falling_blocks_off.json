@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "undertale1:blocks/falling_blocks_off",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "undertale1:falling_blocks_off"
+        }
+      ]
+    }
+  ]
+}

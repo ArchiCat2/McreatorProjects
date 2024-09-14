@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "undertale1:block/block_1",
+    "up": "undertale1:block/block_1",
+    "north": "undertale1:block/block_1",
+    "east": "undertale1:block/block_1",
+    "south": "undertale1:block/block_1",
+    "west": "undertale1:block/block_1",
+    "particle": "undertale1:block/block_1"
+  },
+  "render_type": "solid"
+}
