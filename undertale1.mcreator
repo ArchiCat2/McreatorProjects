@@ -1,0 +1,49 @@
+{
+  "mod_elements": [
+    {
+      "name": "Cveti",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cveti",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/undertale1/models/block/cveti.json",
+          "src/main/resources/assets/undertale1/models/item/cveti.json",
+          "src/main/java/net/mcreator/undertale/block/CvetiBlock.java",
+          "src/main/resources/assets/undertale1/blockstates/cveti.json",
+          "src/main/resources/data/undertale1/loot_tables/blocks/cveti.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.undertale1.cveti": "Cveti"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "undertale1",
+    "modName": "undertale1",
+    "version": "1.0.0",
+    "author": "amin-, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.undertale"
+  },
+  "mcreatorVersion": 202400232117
+}

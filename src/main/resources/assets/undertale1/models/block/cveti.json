@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "undertale1:block/cveti",
+    "up": "undertale1:block/cveti",
+    "north": "undertale1:block/cveti",
+    "east": "undertale1:block/cveti",
+    "south": "undertale1:block/cveti",
+    "west": "undertale1:block/cveti",
+    "particle": "undertale1:block/cveti"
+  },
+  "render_type": "solid"
+}
