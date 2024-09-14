@@ -24,6 +24,7 @@ public class Undertale1ModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(Undertale1ModBlocks.CVETI.get().asItem());
 			tabData.accept(Undertale1ModBlocks.FALLING_BLOCKS_OFF.get().asItem());
+			tabData.accept(Undertale1ModBlocks.FALLING_BLOCKS_ON.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(Undertale1ModItems.TOY_KNIFE.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
