@@ -21,7 +21,9 @@ public class Undertale1ModTabs {
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+			tabData.accept(Undertale1ModBlocks.CVETI.get().asItem());
+		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(Undertale1ModBlocks.CVETI.get().asItem());
 		}
 	}

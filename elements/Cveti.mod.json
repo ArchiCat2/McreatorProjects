@@ -44,6 +44,9 @@
     "creativeTabs": [
       {
         "value": "DECORATIONS"
+      },
+      {
+        "value": "BUILDING_BLOCKS"
       }
     ],
     "destroyTool": "Not specified",

@@ -8,11 +8,11 @@
       "registry_name": "cveti",
       "metadata": {
         "files": [
+          "src/main/resources/assets/undertale1/blockstates/cveti.json",
+          "src/main/resources/data/undertale1/loot_tables/blocks/cveti.json",
           "src/main/resources/assets/undertale1/models/block/cveti.json",
           "src/main/resources/assets/undertale1/models/item/cveti.json",
-          "src/main/java/net/mcreator/undertale/block/CvetiBlock.java",
-          "src/main/resources/assets/undertale1/blockstates/cveti.json",
-          "src/main/resources/data/undertale1/loot_tables/blocks/cveti.json"
+          "src/main/java/net/mcreator/undertale/block/CvetiBlock.java"
         ]
       }
     }
